@@ -1,0 +1,50 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.bot-container__score {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bot-container {
+  display: flex;
+  padding-top: 1rem;
+  position: relative;
+}
+
+.bot-container__cards,
+.player-container__cards {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  gap: 5px;
+}
+
+.player-container {
+  display: flex;
+  align-self: flex-end;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.player-container__score {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.test {
+  width: 70%;
+  margin: 0 auto;
+  background: #000;
+  height: 100%;
+}
